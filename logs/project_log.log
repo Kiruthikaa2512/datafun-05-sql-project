@@ -1,0 +1,89 @@
+2025-06-01 13:50:02.758 | INFO     | utils_logger:<module>:46 - Logging to file: logs\project_log.log
+2025-06-01 13:50:02.758 | INFO     | __main__:main:38 - Starting database setup...
+2025-06-01 13:50:02.765 | INFO     | __main__:main:53 - Connected to database: C:\Projects\Repos\datafun-05-sql\sql_queries\data\db.sqlite
+2025-06-01 13:50:02.765 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Projects\Repos\datafun-05-sql\sql_queries\sql_create\01_drop_tables.sql: [Errno 2] No such file or directory: 'C:\\Projects\\Repos\\datafun-05-sql\\sql_queries\\sql_create\\01_drop_tables.sql'
+2025-06-01 13:50:02.766 | ERROR    | __main__:main:63 - Error during database setup: [Errno 2] No such file or directory: 'C:\\Projects\\Repos\\datafun-05-sql\\sql_queries\\sql_create\\01_drop_tables.sql'
+2025-06-01 13:50:02.767 | INFO     | __main__:main:66 - Database connection closed.
+2025-06-01 13:57:50.134 | INFO     | utils_logger:<module>:46 - Logging to file: logs\project_log.log
+2025-06-01 13:57:50.134 | INFO     | __main__:main:38 - Starting database setup...
+2025-06-01 13:57:50.136 | INFO     | __main__:main:53 - Connected to database: C:\Projects\Repos\datafun-05-sql\sql_queries\data\db.sqlite
+2025-06-01 13:57:50.136 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Projects\Repos\datafun-05-sql\sql_queries\sql_create\01_drop_tables.sql: [Errno 2] No such file or directory: 'C:\\Projects\\Repos\\datafun-05-sql\\sql_queries\\sql_create\\01_drop_tables.sql'
+2025-06-01 13:57:50.137 | ERROR    | __main__:main:63 - Error during database setup: [Errno 2] No such file or directory: 'C:\\Projects\\Repos\\datafun-05-sql\\sql_queries\\sql_create\\01_drop_tables.sql'
+2025-06-01 13:57:50.137 | INFO     | __main__:main:66 - Database connection closed.
+2025-06-01 13:57:56.293 | INFO     | utils_logger:<module>:46 - Logging to file: logs\project_log.log
+2025-06-01 13:57:56.293 | INFO     | __main__:main:38 - Starting database setup...
+2025-06-01 13:57:56.295 | INFO     | __main__:main:53 - Connected to database: C:\Projects\Repos\datafun-05-sql\sql_queries\data\db.sqlite
+2025-06-01 13:57:56.295 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Projects\Repos\datafun-05-sql\sql_queries\sql_create\01_drop_tables.sql: [Errno 2] No such file or directory: 'C:\\Projects\\Repos\\datafun-05-sql\\sql_queries\\sql_create\\01_drop_tables.sql'
+2025-06-01 13:57:56.296 | ERROR    | __main__:main:63 - Error during database setup: [Errno 2] No such file or directory: 'C:\\Projects\\Repos\\datafun-05-sql\\sql_queries\\sql_create\\01_drop_tables.sql'
+2025-06-01 13:57:56.296 | INFO     | __main__:main:66 - Database connection closed.
+2025-06-01 14:00:28.214 | INFO     | utils_logger:<module>:46 - Logging to file: logs\project_log.log
+2025-06-01 14:00:28.215 | INFO     | __main__:main:38 - Starting database setup...
+2025-06-01 14:00:28.216 | INFO     | __main__:main:53 - Connected to database: C:\Projects\Repos\datafun-05-sql\sql_queries\data\db.sqlite
+2025-06-01 14:00:28.218 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_queries\sql_create\01_drop_tables.sql
+2025-06-01 14:00:28.218 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_queries\sql_create\02_create_tables.sql
+2025-06-01 14:00:28.222 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Projects\Repos\datafun-05-sql\sql_queries\sql_create\03_insert_records.sql: no such table: authors
+2025-06-01 14:00:28.222 | ERROR    | __main__:main:63 - Error during database setup: no such table: authors
+2025-06-01 14:00:28.222 | INFO     | __main__:main:66 - Database connection closed.
+2025-06-01 14:18:59.364 | INFO     | utils_logger:<module>:46 - Logging to file: logs\project_log.log
+2025-06-01 14:18:59.365 | INFO     | __main__:main:38 - Starting database setup...
+2025-06-01 14:18:59.367 | INFO     | __main__:main:53 - Connected to database: C:\Projects\Repos\datafun-05-sql\sql_queries\data\db.sqlite
+2025-06-01 14:18:59.367 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_queries\sql_create\01_drop_tables.sql
+2025-06-01 14:18:59.368 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_queries\sql_create\02_create_tables.sql
+2025-06-01 14:18:59.369 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Projects\Repos\datafun-05-sql\sql_queries\sql_create\03_insert_records.sql: no such table: authors
+2025-06-01 14:18:59.369 | ERROR    | __main__:main:63 - Error during database setup: no such table: authors
+2025-06-01 14:18:59.371 | INFO     | __main__:main:66 - Database connection closed.
+2025-06-01 14:19:10.708 | INFO     | utils_logger:<module>:46 - Logging to file: logs\project_log.log
+2025-06-01 14:19:10.708 | INFO     | __main__:main:38 - Starting database setup...
+2025-06-01 14:19:10.708 | INFO     | __main__:main:53 - Connected to database: C:\Projects\Repos\datafun-05-sql\sql_queries\data\db.sqlite
+2025-06-01 14:19:10.708 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_queries\sql_create\01_drop_tables.sql
+2025-06-01 14:19:10.708 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_queries\sql_create\02_create_tables.sql
+2025-06-01 14:19:10.708 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Projects\Repos\datafun-05-sql\sql_queries\sql_create\03_insert_records.sql: no such table: authors
+2025-06-01 14:19:10.708 | ERROR    | __main__:main:63 - Error during database setup: no such table: authors
+2025-06-01 14:19:10.708 | INFO     | __main__:main:66 - Database connection closed.
+2025-06-01 14:25:48.323 | INFO     | utils_logger:<module>:46 - Logging to file: logs\project_log.log
+2025-06-01 14:25:48.324 | INFO     | __main__:main:38 - Starting database setup...
+2025-06-01 14:25:48.326 | INFO     | __main__:main:53 - Connected to database: C:\Projects\Repos\datafun-05-sql\sql_queries\data\db.sqlite
+2025-06-01 14:25:48.327 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_queries\sql_create\01_drop_tables.sql
+2025-06-01 14:25:48.391 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_queries\sql_create\02_create_tables.sql
+2025-06-01 14:25:48.392 | INFO     | __main__:main:64 - Tables in DB after creation: [('authors',), ('books',)]
+2025-06-01 14:25:48.404 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_queries\sql_create\03_insert_records.sql
+2025-06-01 14:25:48.405 | INFO     | __main__:main:67 - Database setup completed successfully.
+2025-06-01 14:25:48.405 | INFO     | __main__:main:72 - Database connection closed.
+2025-06-01 14:30:21.396 | INFO     | utils_logger:<module>:46 - Logging to file: logs\project_log.log
+2025-06-01 14:30:21.396 | INFO     | __main__:main:38 - Starting database setup...
+2025-06-01 14:30:21.398 | INFO     | __main__:main:53 - Connected to database: C:\Projects\Repos\datafun-05-sql\sql_queries\data\db.sqlite
+2025-06-01 14:30:21.398 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_queries\sql_create\01_drop_tables.sql
+2025-06-01 14:30:21.400 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Projects\Repos\datafun-05-sql\sql_queries\sql_create\02_create_tables.sql: table authors already exists
+2025-06-01 14:30:21.400 | ERROR    | __main__:main:69 - Error during database setup: table authors already exists
+2025-06-01 14:30:21.401 | INFO     | __main__:main:72 - Database connection closed.
+2025-06-01 14:32:01.316 | INFO     | utils_logger:<module>:46 - Logging to file: logs\project_log.log
+2025-06-01 14:32:01.317 | INFO     | __main__:main:38 - Starting database setup...
+2025-06-01 14:32:01.319 | INFO     | __main__:main:53 - Connected to database: C:\Projects\Repos\datafun-05-sql\sql_queries\data\db.sqlite
+2025-06-01 14:32:01.320 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_queries\sql_create\01_drop_tables.sql
+2025-06-01 14:32:01.381 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_queries\sql_create\02_create_tables.sql
+2025-06-01 14:32:01.382 | INFO     | __main__:main:64 - Tables in DB after creation: [('authors',), ('books',)]
+2025-06-01 14:32:01.390 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Projects\Repos\datafun-05-sql\sql_queries\sql_create\03_insert_records.sql: near "INSERT": syntax error
+2025-06-01 14:32:01.390 | ERROR    | __main__:main:69 - Error during database setup: near "INSERT": syntax error
+2025-06-01 14:32:01.391 | INFO     | __main__:main:72 - Database connection closed.
+2025-06-01 14:33:11.337 | INFO     | utils_logger:<module>:46 - Logging to file: logs\project_log.log
+2025-06-01 14:33:11.337 | INFO     | __main__:main:38 - Starting database setup...
+2025-06-01 14:33:11.339 | INFO     | __main__:main:53 - Connected to database: C:\Projects\Repos\datafun-05-sql\sql_queries\data\db.sqlite
+2025-06-01 14:33:11.373 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_queries\sql_create\01_drop_tables.sql
+2025-06-01 14:33:11.387 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_queries\sql_create\02_create_tables.sql
+2025-06-01 14:33:11.388 | INFO     | __main__:main:64 - Tables in DB after creation: [('authors',), ('books',)]
+2025-06-01 14:33:11.405 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_queries\sql_create\03_insert_records.sql
+2025-06-01 14:33:11.405 | INFO     | __main__:main:67 - Database setup completed successfully.
+2025-06-01 14:33:11.405 | INFO     | __main__:main:72 - Database connection closed.
+2025-06-05 11:13:25.997 | INFO     | __main__:<module>:39 - Logging to file: logs\project_log.log
+2025-06-05 11:13:25.999 | INFO     | __main__:main:61 - STARTING __main__.py
+2025-06-05 11:13:25.999 | INFO     | __main__:log_example:52 - This is an example info message.
+2025-06-05 11:13:26.000 | WARNING  | __main__:log_example:53 - This is an example warning message.
+2025-06-05 11:13:26.000 | ERROR    | __main__:log_example:54 - This is an example error message.
+2025-06-05 11:13:26.001 | INFO     | __main__:main:66 - View the log output at logs\project_log.log
+2025-06-05 11:13:26.001 | INFO     | __main__:main:67 - EXITING __main__.py.
+2025-06-05 14:08:33.345 | INFO     | __main__:<module>:18 - Connected to database: C:\Projects\Repos\data\project.sqlite3
+2025-06-05 15:30:03.113 | INFO     | __main__:<module>:35 - Database tables created successfully.
+2025-06-05 21:01:34.811 | INFO     | __main__:<module>:50 - Database tables created successfully.
+2025-06-05 21:26:53.455 | INFO     | __main__:<module>:16 - Tables dropped successfully.
+2025-06-05 21:26:53.474 | INFO     | __main__:<module>:47 - Database tables created successfully.
+2025-06-05 21:30:28.659 | INFO     | __main__:<module>:24 - Sample data inserted into 'issues' and 'analysis' tables.

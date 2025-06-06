@@ -1,0 +1,11 @@
+task_id,description,category,created_date,status
+T23465,System outage in zone 1,Infrastructure,5/1/2024,Closed
+T23468,Incorrect data on dashboard,Data Quality,5/3/2024,Open
+T23475,Delay in daily ETL process,ETL,5/4/2024,In Progress
+T23865,Frequent login failures,Authentication,5/6/2024,Closed
+T23363,Missing entries in report,Reporting,5/7/2024,Open
+T23432,Deployment failed to include several backend services  causing runtime errors in production.,Deployment Error,5/16/2025,Closed
+T23168,Critical bugs were found in the latest release that slipped through due to missing automated tests.,Quality Assurance,5/27/2025,Closed
+T23482,Inconsistent system behavior across environments traced back to differences in config files,Configuration Management,5/28/2025,Open
+T23861,Generated reports contained invalid values due to data corruption during nightly ETL processes.,Data Integrity,5/5/2025,In Progress
+T23333,Feature development was misaligned with business needs due to lack of early stakeholder feedback.,Requirements Gathering,5/5/2025,Closed

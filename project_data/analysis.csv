@@ -1,0 +1,11 @@
+task_id,analysis_id,type_of_analysis,root_cause,resolution,resolution_date
+T23465,A001,5 Whys,Power supply issue,Installed UPS,5/2/2025
+T23468,A002,Fishbone,Wrong join logic in query,Fixed join conditions,5/4/2025
+T23475,A003,Pareto,Dependency on external API,Added retry mechanism,5/5/2025
+T23865,A004,Root Cause Tree,Session timeout misconfig,Increased session timeout,5/7/2025
+T23363,A005,5 Whys,Scheduled job skipped,Rescheduled job,5/8/2025
+T23432,A006,Fishbone,Incomplete deployment,Re-deployed with all components verified,5/17/2025
+T23168,A007,Pareto,Lack of test coverage,Added unit and integration tests,5/29/2025
+T23482,A008,Root Cause Tree,Configuration drift,Standardized and locked configuration,6/29/2025
+T23861,A009,Root Cause Tree,Data corruption during ETL,Implemented checksums and validation,5/7/2025
+T23333,A010,Root Cause Tree,Missing stakeholder input,Conducted stakeholder review session,5/7/2025

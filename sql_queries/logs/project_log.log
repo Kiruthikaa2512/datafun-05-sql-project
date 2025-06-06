@@ -1,0 +1,87 @@
+2025-06-03 18:14:15.903 | INFO     | utils_logger:<module>:46 - Logging to file: logs\project_log.log
+2025-06-03 18:14:15.905 | INFO     | __main__:main:38 - Starting database setup...
+2025-06-03 18:14:15.918 | INFO     | __main__:main:54 - Connected to database: C:\Projects\Repos\datafun-05-sql\data\db.sqlite
+2025-06-03 18:14:15.919 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Projects\Repos\datafun-05-sql\sql_create\01_project_drop_tables.sql: [Errno 2] No such file or directory: 'C:\\Projects\\Repos\\datafun-05-sql\\sql_create\\01_project_drop_tables.sql'
+2025-06-03 18:14:15.919 | ERROR    | __main__:main:70 - Error during database setup: [Errno 2] No such file or directory: 'C:\\Projects\\Repos\\datafun-05-sql\\sql_create\\01_project_drop_tables.sql'
+2025-06-03 18:14:15.920 | INFO     | __main__:main:73 - Database connection closed.
+2025-06-03 22:04:09.610 | INFO     | utils_logger:<module>:46 - Logging to file: logs\project_log.log
+2025-06-03 22:04:09.610 | INFO     | __main__:main:38 - Starting database setup...
+2025-06-03 22:04:09.617 | INFO     | __main__:main:54 - Connected to database: C:\Projects\Repos\datafun-05-sql\data\db.sqlite
+2025-06-03 22:04:09.624 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_create\01_project_drop_tables.sql
+2025-06-03 22:04:09.635 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_create\02_project_create_tables.sql
+2025-06-03 22:04:09.638 | INFO     | __main__:main:65 - Tables in DB after creation: [('authors',), ('books',), ('issues',), ('analysis',)]
+2025-06-03 22:04:09.640 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Projects\Repos\datafun-05-sql\sql_create\03_project_insert_records.sql: UNIQUE constraint failed: issues.task_id
+2025-06-03 22:04:09.640 | ERROR    | __main__:main:70 - Error during database setup: UNIQUE constraint failed: issues.task_id
+2025-06-03 22:04:09.640 | INFO     | __main__:main:73 - Database connection closed.
+2025-06-03 22:06:58.553 | INFO     | utils_logger:<module>:46 - Logging to file: logs\project_log.log
+2025-06-03 22:06:58.554 | INFO     | __main__:main:38 - Starting database setup...
+2025-06-03 22:06:58.555 | INFO     | __main__:main:54 - Connected to database: C:\Projects\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-03 22:06:58.556 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_create\01_project_drop_tables.sql
+2025-06-03 22:06:58.618 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_create\02_project_create_tables.sql
+2025-06-03 22:06:58.619 | INFO     | __main__:main:65 - Tables in DB after creation: [('issues',), ('analysis',)]
+2025-06-03 22:06:58.622 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Projects\Repos\datafun-05-sql\sql_create\03_project_insert_records.sql: UNIQUE constraint failed: issues.task_id
+2025-06-03 22:06:58.623 | ERROR    | __main__:main:70 - Error during database setup: UNIQUE constraint failed: issues.task_id
+2025-06-03 22:06:58.623 | INFO     | __main__:main:73 - Database connection closed.
+2025-06-03 22:09:10.506 | INFO     | utils_logger:<module>:46 - Logging to file: logs\project_log.log
+2025-06-03 22:09:10.506 | INFO     | __main__:main:38 - Starting database setup...
+2025-06-03 22:09:10.506 | INFO     | __main__:main:54 - Connected to database: C:\Projects\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-03 22:09:10.518 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_create\01_project_drop_tables.sql
+2025-06-03 22:09:10.583 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_create\02_project_create_tables.sql
+2025-06-03 22:09:10.583 | INFO     | __main__:main:65 - Tables in DB after creation: [('issues',), ('analysis',)]
+2025-06-03 22:09:10.583 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Projects\Repos\datafun-05-sql\sql_create\03_project_insert_records.sql: UNIQUE constraint failed: issues.task_id
+2025-06-03 22:09:10.583 | ERROR    | __main__:main:70 - Error during database setup: UNIQUE constraint failed: issues.task_id
+2025-06-03 22:09:10.583 | INFO     | __main__:main:73 - Database connection closed.
+2025-06-03 22:10:09.738 | INFO     | utils_logger:<module>:46 - Logging to file: logs\project_log.log
+2025-06-03 22:10:09.738 | INFO     | __main__:main:38 - Starting database setup...
+2025-06-03 22:10:09.738 | INFO     | __main__:main:54 - Connected to database: C:\Projects\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-03 22:10:09.804 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_create\01_project_drop_tables.sql
+2025-06-03 22:10:09.820 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_create\02_project_create_tables.sql
+2025-06-03 22:10:09.821 | INFO     | __main__:main:65 - Tables in DB after creation: [('issues',), ('analysis',)]
+2025-06-03 22:10:09.823 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Projects\Repos\datafun-05-sql\sql_create\03_project_insert_records.sql: UNIQUE constraint failed: issues.task_id
+2025-06-03 22:10:09.823 | ERROR    | __main__:main:70 - Error during database setup: UNIQUE constraint failed: issues.task_id
+2025-06-03 22:10:09.823 | INFO     | __main__:main:73 - Database connection closed.
+2025-06-03 22:13:13.129 | INFO     | utils_logger:<module>:46 - Logging to file: logs\project_log.log
+2025-06-03 22:13:13.129 | INFO     | __main__:main:38 - Starting database setup...
+2025-06-03 22:13:13.131 | INFO     | __main__:main:54 - Connected to database: C:\Projects\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-03 22:13:13.189 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_create\01_project_drop_tables.sql
+2025-06-03 22:13:13.203 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_create\02_project_create_tables.sql
+2025-06-03 22:13:13.203 | INFO     | __main__:main:65 - Tables in DB after creation: [('issues',), ('analysis',)]
+2025-06-03 22:13:13.206 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Projects\Repos\datafun-05-sql\sql_create\03_project_insert_records.sql: UNIQUE constraint failed: issues.task_id
+2025-06-03 22:13:13.206 | ERROR    | __main__:main:70 - Error during database setup: UNIQUE constraint failed: issues.task_id
+2025-06-03 22:13:13.206 | INFO     | __main__:main:73 - Database connection closed.
+2025-06-03 22:13:56.809 | INFO     | utils_logger:<module>:46 - Logging to file: logs\project_log.log
+2025-06-03 22:13:56.810 | INFO     | __main__:main:38 - Starting database setup...
+2025-06-03 22:13:56.811 | INFO     | __main__:main:54 - Connected to database: C:\Projects\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-03 22:13:56.814 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_create\01_project_drop_tables.sql
+2025-06-03 22:13:56.877 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_create\02_project_create_tables.sql
+2025-06-03 22:13:56.878 | INFO     | __main__:main:65 - Tables in DB after creation: [('issues',), ('analysis',)]
+2025-06-03 22:13:56.881 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Projects\Repos\datafun-05-sql\sql_create\03_project_insert_records.sql: UNIQUE constraint failed: issues.task_id
+2025-06-03 22:13:56.881 | ERROR    | __main__:main:70 - Error during database setup: UNIQUE constraint failed: issues.task_id
+2025-06-03 22:13:56.881 | INFO     | __main__:main:73 - Database connection closed.
+2025-06-03 22:16:25.587 | INFO     | utils_logger:<module>:46 - Logging to file: logs\project_log.log
+2025-06-03 22:16:25.587 | INFO     | __main__:main:38 - Starting database setup...
+2025-06-03 22:16:25.589 | INFO     | __main__:main:54 - Connected to database: C:\Projects\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-03 22:16:25.591 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_create\01_project_drop_tables.sql
+2025-06-03 22:16:25.650 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_create\02_project_create_tables.sql
+2025-06-03 22:16:25.651 | INFO     | __main__:main:65 - Tables in DB after creation: [('issues',), ('analysis',)]
+2025-06-03 22:16:25.665 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Projects\Repos\datafun-05-sql\sql_create\03_project_insert_records.sql: UNIQUE constraint failed: analysis.analysis_id
+2025-06-03 22:16:25.665 | ERROR    | __main__:main:70 - Error during database setup: UNIQUE constraint failed: analysis.analysis_id
+2025-06-03 22:16:25.666 | INFO     | __main__:main:73 - Database connection closed.
+2025-06-03 22:18:16.828 | INFO     | utils_logger:<module>:46 - Logging to file: logs\project_log.log
+2025-06-03 22:18:16.828 | INFO     | __main__:main:38 - Starting database setup...
+2025-06-03 22:18:16.831 | INFO     | __main__:main:54 - Connected to database: C:\Projects\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-03 22:18:16.890 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_create\01_project_drop_tables.sql
+2025-06-03 22:18:16.904 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_create\02_project_create_tables.sql
+2025-06-03 22:18:16.904 | INFO     | __main__:main:65 - Tables in DB after creation: [('issues',), ('analysis',)]
+2025-06-03 22:18:16.918 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_create\03_project_insert_records.sql
+2025-06-03 22:18:16.918 | INFO     | __main__:main:68 - Database setup completed successfully.
+2025-06-03 22:18:16.918 | INFO     | __main__:main:73 - Database connection closed.
+2025-06-03 22:33:10.604 | INFO     | utils_logger:<module>:46 - Logging to file: logs\project_log.log
+2025-06-03 22:33:10.604 | INFO     | __main__:main:38 - Starting database setup...
+2025-06-03 22:33:10.604 | INFO     | __main__:main:54 - Connected to database: C:\Projects\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-03 22:33:10.672 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_create\01_project_drop_tables.sql
+2025-06-03 22:33:10.691 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_create\02_project_create_tables.sql
+2025-06-03 22:33:10.692 | INFO     | __main__:main:65 - Tables in DB after creation: [('issues',), ('analysis',)]
+2025-06-03 22:33:10.706 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_create\03_project_insert_records.sql
+2025-06-03 22:33:10.706 | INFO     | __main__:main:68 - Database setup completed successfully.
+2025-06-03 22:33:10.706 | INFO     | __main__:main:73 - Database connection closed.
