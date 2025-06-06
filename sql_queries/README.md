@@ -47,10 +47,10 @@ datafun-05-sql-project/
 - Established foreign key relationships
 - Populated with 10 sample entries each
 
-**Screenshot: Table schema and sample records**  
-![Issues and Analysis Table Preview](project_output/issues_analysis_preview.png)
+**Screenshot: Table schema and sample records**
 
----
+
+![Table creation preview](project_output/table_creation.png)
 
 ### 2. SQL Queries and Joins
 
