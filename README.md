@@ -51,28 +51,40 @@ datafun-05-sql-project/
 
 - Joined both tables to identify root causes, delays, and patterns
  ![issues_table](project_output/table_joining.png)
+
 - Aggregated resolution time by type of analysis 
+- 
   ![issues_table](project_output/avg.png) 
+
 - Found distinct values by category
+- 
   ![issues_table](project_output/distinct_category.png)
+
 - Grouped by category
+- 
   ![issues_table](project_output/groupby.png)
+
 - Listed the issue in Descending order by Date
+- 
   ![issues_table](project_output/ordered_desc.png)
+
 - Deleted Records
+- 
   ![issues_table](project_output/deletion_record.png)
   
 
 ### 3. Visualizations  
 
 - Bar chart displaying average resolution time by analysis type  
-- Pie chart illustrating the distribution of issue statuses  
+- Pie chart illustrating the distribution of issue statuses
+    
   ![issues_table](project_output/visualization.png)
 
 ### 4. Feature Engineering  
 
 - Created a `days_to_resolve` feature using `JULIANDAY` date difference  
 - Incorporated custom observations based on status distribution 
+  
   ![issues_table](project_output/visualization_eng.png) 
 
 
