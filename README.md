@@ -106,8 +106,6 @@ This analysis provides valuable insights into issue resolution delays, root caus
 - Enhance dashboard with real-time metrics  
 - Develop a model to predict resolution delays  
 
----
-
 ## How to Run  
 
 ```bash
@@ -126,23 +124,17 @@ jupyter notebook notebooks/analysis_notebook.ipynb
 pip install pandas matplotlib seaborn ipython
 ```
 
----
-
-# Push updates to Remote Repository
-git add .  
-git commit -m "Updated README and added logger script"  
-git push origin main  
+### Push updates to Remote Repository
+    git add .
+	git commit -m "Completed EDA SQL Query Project"
+	git push origin main
 
 ## Acknowledgements
 
 Special Thanks To:
 Dr.Case for her guidance and support
 Open Source Contributors for essential license and tools. 
----
 
 ## Author  
 
 This project is part of the **DataFun** project series, designed for hands-on data analysis and engineering using Python and SQL.
-
----
-
