@@ -50,29 +50,31 @@ datafun-05-sql-project/
 ### 2. SQL Queries and Joins
 
 - Joined both tables to identify root causes, delays, and patterns
- ![issues_table](project_output/table_joining.png)
+ ![Join](project_output/table_joining.png)
 
 - Aggregated resolution time by type of analysis 
-- 
-  ![issues_table](project_output/avg.png) 
+  
+  ![Aggregation](project_output/avg.png) 
 
 - Found distinct values by category
-- 
-  ![issues_table](project_output/distinct_category.png)
+  
+  ![Distinct](project_output/distinct_category.png)
 
 - Grouped by category
-- 
-  ![issues_table](project_output/groupby.png)
+  
+  ![Grouping](project_output/groupby.png)
 
 - Listed the issue in Descending order by Date
-- 
-  ![issues_table](project_output/ordered_desc.png)
+  
+  ![List Desc](project_output/ordered_desc.png)
 
 - Deleted Records
-- 
-  ![issues_table](project_output/deletion_record.png)
   
-
+  ![Deletion](project_output/deletion_record.png)
+  
+- Updated Records
+- ![Update](project_output/deletion_record.png)
+  
 ### 3. Visualizations  
 
 - Bar chart displaying average resolution time by analysis type  
